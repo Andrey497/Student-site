@@ -1,0 +1,142 @@
+*{
+  font-family: 'Roboto', sans-serif;
+}
+header h1,
+header h2,
+header h3,
+header h4,
+header h5,
+header h6
+
+{
+color:rgb(93, 44, 124)/*rgb(90, 67, 104)*/;  
+}
+.content{
+  color:#3b3b3b;
+}
+form{
+  min-height: 500px;
+}
+body{
+  background-color: #f6f6f6;
+}
+a{
+  text-decoration: none;
+  color:inherit;
+}
+/*Header*/
+header a{
+   color:rgb(93, 44, 124);
+}
+header a:hover{
+  color:rgb(157, 0, 255);
+  transition: 0.25s;
+  transform: scale(1.035);
+}
+header{
+   background: #2bdabc/*#00a1a7*/;
+   height:90px;
+}
+header ul{
+   list-style: none;
+   margin: 0px;
+   padding: 0px;
+   float: right;
+}
+header ul li{
+   position: relative;
+   float:left;
+}
+header h1{
+   margin-top: 15px;
+}
+header ul a{
+   display: block;
+   font-size: 1.2rem;
+   padding: 20px;
+   padding-top: 25px;
+
+}
+.content-name{
+  color: #969696;
+  text-align:center;
+}
+.content-heading{
+  padding: 15px;
+  border-bottom:1px solid #cccbcb;
+  text-align: left;
+  color:black;
+}
+.content-elem{
+  padding: 15px;
+  border-bottom:1px solid #cccbcb;
+  text-align: left;
+}
+
+footer{
+  background-color: rgb(24, 24, 24);
+  color:#ffffff;
+}
+.row .post{
+margin-left: 5px;
+}
+.article img{
+max-width: 1080px;
+
+}
+
+.footer{
+  background-color: rgb(24, 24, 24);
+  color:#ffffff;
+}
+
+/*FORM INPUT*/
+
+.btn-link{
+ color:rgb(93, 44, 124);
+ text-decoration: none;
+}
+.sidebar {
+  margin: 0;
+  padding: 0;
+  background-color:#2bdabc ;
+  height: 100%;
+  min-height: 600px;
+  overflow: auto;
+}
+/* Сайдбар ссылки */
+.sidebar a {
+  display: block;
+  color: rgb(77, 77, 77);
+  padding: 16px;
+  text-decoration: none;
+
+}
+
+/* Активная/текущая ссылка */
+.sidebar a.active {
+  background-color:#f1f1f1 ;
+  color: white;
+}
+
+/* Ссылки при наведении мыши */
+.sidebar a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+  a.del{
+color:red
+}
+a.del:hover{
+  color:rgb(255, 81, 81);
+  transition: 0.25s;
+  transform: scale(1.035);
+ }
+   a.change{
+  color:seagreen;
+  }
+    a.change:hover{
+    color:rgb(89, 194, 134);
+    transition: 0.25s;
+    transform: scale(1.035);
+   }
